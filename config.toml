@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Home"
-baseURL = "http://localhost:1313/"
+baseURL = "abrac012.github.io"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
