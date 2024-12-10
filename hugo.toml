@@ -11,4 +11,4 @@ theme = "hugo-theme-massively"
   languageName = "English"
 [languages.es]
   languageName = "Español"
-  title = "Inicio"
+  title = 'Inicio'
