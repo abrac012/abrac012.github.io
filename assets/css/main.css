@@ -2177,7 +2177,8 @@ table.alt tbody tr td {
     /* Ensure image stays on the right */ }
   #intro h1 {
     font-size: 4rem;
-    line-height: 1; }
+    line-height: 1;
+    text-align: center; }
   #intro p {
     font-size: 1.25rem;
     font-style: italic;
