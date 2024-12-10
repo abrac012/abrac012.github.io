@@ -1,0 +1,28 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.intro }}
+<div id="intro">
+    <!-- Title, Description, and Image Container -->
+    <div class="intro-container">
+        <div class="text-container">
+            <h1>
+                {{- range $i, $e := .title -}}
+                    {{- if $i -}}<br/>{{- end -}} {{- .line -}}
+                {{- end -}}
+            </h1>
+            <p>
+                {{- range $i, $e := .description -}}
+                    {{- if $i -}}<br/>{{- end -}} {{- .line -}}
+                {{- end -}}
+            </p>
+            <!-- Action Button placed inside the text container -->
+            <ul class="actions">
+                <li><a href="#header" class="button icon solo fa-arrow-down scrolly">{{ i18n "INTRO_CONTINUE" . }}</a></li>
+            </ul>
+        </div>
+        <!-- Image Section -->
+        <div class="intro-image">
+            <img src="{{ .image | relURL }}" alt="Intro Image" />
+        </div>
+    </div>
+</div>
+{{- end }}

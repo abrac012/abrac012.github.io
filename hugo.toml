@@ -1,0 +1,14 @@
+baseURL = 'https://abrac012.github.io/'
+languageCode = 'en-us'
+title = 'Home'
+theme = "hugo-theme-massively"
+
+[params]
+  favicon = "images/favicon.png"
+
+[languages]
+[languages.en]
+  languageName = "English"
+[languages.es]
+  languageName = "Español"
+  title = "Inicio"
