@@ -6,7 +6,6 @@
 
 /* Intro */
 
-/* Intro */
 	#intro {
 	    @include color-typography(invert);
 	    @include color-button(invert);
@@ -21,32 +20,35 @@
 	    ));
 	    position: relative;
 	    cursor: default;
-	    text-align: center; /* Align text left */
+	    text-align: center;
 	    z-index: 1;
 	    min-height: 100vh;
 
 	    .intro-container {
-	        display: flex; /* Use flex to align title + description and image side by side */
-	        align-items: center;
-	        justify-content: space-between; /* Space out the text and image */
+	        display: flex;
+	        align-items: center; /* Align items to the top */
+	        justify-content: flex-start; /* Keep text and image closer */
+	        gap: 20px; /* Maintain consistent space between text and image */
 	        width: 100%;
 	    }
 
 	    .text-container {
-	        max-width: 60%; /* Adjust to make space for the image */
+	        max-width: 60%; 
+	        flex-grow: 1; /* Ensure the text container takes its full space */
 	        display: flex;
 	        flex-direction: column;
-	        align-items: center; /* Center text content and button */
+	        align-items: center; /* Align text content to the left */
 	    }
 
 	    .intro-image {
-	        max-width: 35%; /* Adjust the image width */
-	        margin-left: 20px;
-	        flex-shrink: 0; /* Prevent image from shrinking */
+	        max-width: 35%; 
+	        flex-shrink: 0; /* Prevent the image from shrinking */
+	        min-width: 300px; /* Enforce a minimum width for the image */
+	        margin-left: auto; /* Ensure image stays on the right */
 	    }
 
 	    h1 {
-	        font-size: 5rem;
+	        font-size: 4rem;
 	        line-height: 1;
 	    }
 
@@ -57,26 +59,42 @@
 	    }
 
 	    .actions {
-	        display: block; /* Make actions a block-level element */
-	        margin-top: 20px; /* Space between text and button */
+	        display: block;
+	        margin-top: 20px;
 	    }
 
 	    @include breakpoint('<=medium') {
 	        @include padding(_size(padding) * 2, _size(padding) * 2);
 	        min-height: 90vh;
 
+	        .intro-container {
+	            gap: 15px; /* Adjust gap for medium screens */
+	        }
+
 	        .text-container {
-	            max-width: 70%; /* Allow more space for text on smaller screens */
+	            max-width: 70%; 
 	        }
 
 	        .intro-image {
-	            max-width: 30%; /* Make image smaller on medium screens */
+	            max-width: 30%; 
+	            min-width: 200px; /* Ensure the image doesn't shrink too much */
 	        }
 	    }
 
 	    @include breakpoint('<=small') {
 	        @include padding(_size(padding) * 1.5, _size(padding) * 1);
 	        min-height: 80vh;
+
+	        .intro-container {
+	            flex-direction: column; /* Stack text and image vertically */
+	            gap: 10px; /* Adjust gap for small screens */
+	        }
+
+	        .intro-image {
+	            max-width: 100%; 
+	            min-width: unset; /* Allow the image to resize for smaller screens */
+	            margin-left: 0; /* Reset margin in vertical layout */
+	        }
 
 	        h1 {
 	            font-size: 3.25rem;
