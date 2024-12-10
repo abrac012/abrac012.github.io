@@ -4,3 +4,7 @@ image: "images/profile.jpeg"
 title: 
   - line: "¡Hola! Soy" 
   - line: "Aitor Bracho"
+
+description:
+  - line: "Candidato a doctorado en Física Nuclear y Particular |"
+  - line: "Entusiasta de la Energía y el Transporte Renovable" 
