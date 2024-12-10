@@ -4,3 +4,7 @@ image: "images/profile.jpeg"
 title: 
   - line: "Hey there!"
   - line: "I'm Aitor Bracho"
+
+description:
+  - line: "Nuclear and Particle Physics PhD. Candidate at Duke University |"
+  - line: "Renewable Energy and Transportation Aficionado" 
