@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inicio</title>
-    <link>http://localhost:1313/es/</link>
-    <description>Recent content on Inicio</description>
+    <title>Navs on Inicio</title>
+    <link>http://localhost:1313/es/nav/</link>
+    <description>Recent content in Navs on Inicio</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/nav/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sobre Mi</title>
-      <link>http://localhost:1313/es/sobre-mi/</link>
+      <link>http://localhost:1313/es/nav/es/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/sobre-mi/</guid>
+      <guid>http://localhost:1313/es/nav/es/about/</guid>
       <description>&lt;p&gt;ah.&lt;/p&gt;</description>
     </item>
   </channel>
