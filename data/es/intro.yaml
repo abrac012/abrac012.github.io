@@ -1,0 +1,9 @@
+image: "images/profile.jpeg"
+
+title:
+- line: "¡Hola! soy"
+- line: "Aitor Bracho"
+
+description:
+- line: 'Un template para sitios HTML5 + CSS3 gratuito y totalmente responsivo, diseñado por @ajlkn para HTML5 UP'
+- line: 'y publicado de forma gratuita bajo la licencia de Creative Commons.'
