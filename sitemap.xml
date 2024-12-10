@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://abrac012.github.io/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://abrac012.github.io/es/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://abrac012.github.io/about/</loc>
+  </url><url>
+    <loc>https://abrac012.github.io/categories/</loc>
+  </url><url>
+    <loc>https://abrac012.github.io/</loc>
+  </url><url>
+    <loc>https://abrac012.github.io/post/</loc>
+  </url><url>
+    <loc>https://abrac012.github.io/post/post1/</loc>
+  </url><url>
+    <loc>https://abrac012.github.io/tags/</loc>
+  </url>
+</urlset>
