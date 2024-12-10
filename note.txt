@@ -1,0 +1,3 @@
+### NOTE ###
+When adding a nav file to the /es/ folder in data, that's when the links get messed up
+That tells me that the nav html is overriding stuff such that the links get messed up when thrown in a folder other than the english folder.
