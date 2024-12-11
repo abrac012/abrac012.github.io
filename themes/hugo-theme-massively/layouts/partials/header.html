@@ -5,10 +5,15 @@
     {{ if eq $currentPage.RelPermalink "/" }}
         <a href='{{ print ("/" | relLangURL) "#header" }}' class="logo">{{ .Site.Title }}</a>
     {{ else }}
+        {{ $matchFound := false }}
         {{ range $data.nav.items }}
             {{ if eq $currentPage.RelPermalink (print .url `/`) }}
                 <a href='{{ .url | relLangURL }}' class="logo">{{ .title }}</a>
+                {{ $matchFound = true }}
             {{ end }}
+        {{ end }}
+        {{ if not $matchFound }}
+            <a href='{{ print ("/" | relLangURL) "#header" }}' class="logo">{{ .Site.Title }}</a>
         {{ end }}
     {{ end }}
 </header>
