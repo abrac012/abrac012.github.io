@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abrac012.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ante mattis interdum dolor</title>
+      <title>Edits to consider</title>
       <link>https://abrac012.github.io/post/post2/</link>
-      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://abrac012.github.io/post/post2/</guid>
-      <description></description>
+      <description>&lt;p&gt;Okay, so here&amp;rsquo;s what I&amp;rsquo;m thinking&amp;hellip;&#xA;I think the header is kind of unnecessary because of the nav bar. So I think for the desktop site it actually makes more sense not to have a header. So the scroll down arrow should direct down to #nav instead of the header. I&amp;rsquo;d have to change the scss file as well, I think so that the nav section has a better &amp;ldquo;break&amp;rdquo; between the top of the page and the actual nav bar. Then on the mobile site it does make sense to have a header, because there you have to rely on the menu to navigate, so having a quick shortcut to the homepage would actually be a helpful functionality there.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Primis eget imperdiet lorem</title>
