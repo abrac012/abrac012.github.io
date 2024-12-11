@@ -1,4 +1,14 @@
 <!-- Header -->
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <header id="header">
-    <a href='{{ print ("/" | relLangURL) "#header" }}' class="logo">{{ .Site.Title }}</a>
+    {{ $currentPage := .Page }}
+    {{ if eq $currentPage.RelPermalink "/" }}
+        <span class="logo">{{ .Site.Title }}</span>
+    {{ else }}
+        {{ range $data.nav.items }}
+            {{ if eq $currentPage.RelPermalink (print .url `/`) }}
+                <span class="logo">{{ .title }}</span>
+            {{ end }}
+        {{ end }}
+    {{ end }}
 </header>

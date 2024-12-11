@@ -1,3 +1,5 @@
 ### NOTE ###
 When adding a nav file to the /es/ folder in data, that's when the links get messed up
 That tells me that the nav html is overriding stuff such that the links get messed up when thrown in a folder other than the english folder.
+
+In nav.html there exists a check for the site language (see Hugo Navigation Template Explanation thread in chatGPT at the tippy top) using relLangURL. I think this is what's breaking when I add multilingual features by creating an en/nav.yaml file. I gotta figure out how to fix that, but yeah there you go!
