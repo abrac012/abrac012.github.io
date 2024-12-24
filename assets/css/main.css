@@ -2223,7 +2223,7 @@ table.alt tbody tr td {
         font-size: 1rem;
         margin-top: 0rem; }
       #intro .actions {
-        display: block; } }
+        display: none; } }
 /* Header */
 #header {
   visibility: hidden;
