@@ -14,7 +14,7 @@
 		@include vendor('justify-content', 'flex-end');
 		@include vendor('pointer-events', 'none');
 		@include vendor('user-select', 'none');
-		height: 20rem;
+		height: 8rem;
 		padding-bottom: (_size(padding) * 4);
 		position: relative;
 		text-align: center;
@@ -39,7 +39,7 @@
 			line-height: 1;
 			padding: 1rem 1.75rem;
 			text-transform: uppercase;
-			visibility: visible;
+			visibility: hidden;
 
 			&:hover {
 				border-color: _palette(invert, accent) !important;
@@ -48,11 +48,13 @@
 		}
 
 		@include breakpoint('<=medium') {
+			visibility: visible;
 			height: 14rem;
 			padding-bottom: (_size(padding) * 2);
 		}
 
 		@include breakpoint('<=small') {
+			visibility: visible;
 			padding-bottom: (_size(padding) * 1.5);
 
 			.logo {

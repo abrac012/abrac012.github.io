@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Home</title>
-    <link>https://abrac012.github.io/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://abrac012.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Edits to consider</title>
-      <link>https://abrac012.github.io/post/post2/</link>
+      <link>http://localhost:1313/post/post2/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://abrac012.github.io/post/post2/</guid>
+      <guid>http://localhost:1313/post/post2/</guid>
       <description>&lt;p&gt;Okay, so here&amp;rsquo;s what I&amp;rsquo;m thinking&amp;hellip;&#xA;I think the header is kind of unnecessary because of the nav bar. So I think for the desktop site it actually makes more sense not to have a header. So the scroll down arrow should direct down to #nav instead of the header. I&amp;rsquo;d have to change the scss file as well, I think so that the nav section has a better &amp;ldquo;break&amp;rdquo; between the top of the page and the actual nav bar. Then on the mobile site it does make sense to have a header, because there you have to rely on the menu to navigate, so having a quick shortcut to the homepage would actually be a helpful functionality there.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Primis eget imperdiet lorem</title>
-      <link>https://abrac012.github.io/post/post1/</link>
+      <link>http://localhost:1313/post/post1/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://abrac012.github.io/post/post1/</guid>
-      <description>&lt;p&gt;Example of post with missing date property but with pic.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;img&#34; src=&#34;https://abrac012.github.io/images/profile.jpeg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;More text&lt;/p&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;img&#34; src=&#34;https://abrac012.github.io/images/favicon.png&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/post1/</guid>
+      <description>&lt;p&gt;Example of post with missing date property but with pic.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;img&#34; src=&#34;http://localhost:1313/images/profile.jpeg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;More text&lt;/p&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;img&#34; src=&#34;http://localhost:1313/images/favicon.png&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

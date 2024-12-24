@@ -2248,7 +2248,7 @@ table.alt tbody tr td {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  height: 20rem;
+  height: 8rem;
   padding-bottom: 8rem;
   position: relative;
   text-align: center;
@@ -2288,16 +2288,18 @@ table.alt tbody tr td {
     line-height: 1;
     padding: 1rem 1.75rem;
     text-transform: uppercase;
-    visibility: visible; }
+    visibility: hidden; }
     #header .logo:hover {
       border-color: #18bfef !important;
       color: #18bfef !important; }
   @media screen and (max-width: 980px) {
     #header {
+      visibility: visible;
       height: 14rem;
       padding-bottom: 4rem; } }
   @media screen and (max-width: 736px) {
     #header {
+      visibility: visible;
       padding-bottom: 3rem; }
       #header .logo {
         font-size: 1.75rem;
