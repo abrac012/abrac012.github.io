@@ -13,7 +13,7 @@
       <link>https://abrac012.github.io/post/post2/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://abrac012.github.io/post/post2/</guid>
-      <description>&lt;p&gt;Okay, so here&amp;rsquo;s what I&amp;rsquo;m thinking&amp;hellip;&#xA;I think the header is kind of unnecessary because of the nav bar. So I think for the desktop site it actually makes more sense not to have a header. So the scroll down arrow should direct down to #nav instead of the header. I&amp;rsquo;d have to change the scss file as well, I think so that the nav section has a better &amp;ldquo;break&amp;rdquo; between the top of the page and the actual nav bar. Then on the mobile site it does make sense to have a header, because there you have to rely on the menu to navigate, so having a quick shortcut to the homepage would actually be a helpful functionality there.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Okay, so here&amp;rsquo;s what I&amp;rsquo;m thinking&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;As far as making a dark theme option, I think the background is already fine for that, but the actual post content isn&amp;rsquo;t. I don&amp;rsquo;t know how to fix that yet, but I&amp;rsquo;m sure there&amp;rsquo;s some sort of color pallete I can reference so that things are still a nice and easy color to use.&lt;/p&gt;&#xA;&lt;p&gt;Those are all my thoughts so far. I&amp;rsquo;ll edit this as my opinions evolve, but I think I need to take a break so that I can look at the site with fresh eyes when I return to it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Primis eget imperdiet lorem</title>
