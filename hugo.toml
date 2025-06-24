@@ -2,6 +2,7 @@ baseURL = 'https://abrac012.github.io/'
 languageCode = 'en-us'
 title = 'Home'
 theme = "hugo-theme-massively"
+canonifyURLS = true
 
 [params]
   favicon = "images/favicon.png"
