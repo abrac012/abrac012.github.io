@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>http://localhost:1313/</link>
+    <link>https://abrac012.github.io/</link>
     <description>Recent content on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://abrac012.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Edits to consider</title>
-      <link>http://localhost:1313/post/post2/</link>
+      <link>https://abrac012.github.io/post/post2/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post2/</guid>
+      <guid>https://abrac012.github.io/post/post2/</guid>
       <description>&lt;p&gt;Okay, so here&amp;rsquo;s what I&amp;rsquo;m thinking&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;As far as making a dark theme option, I think the background is already fine for that, but the actual post content isn&amp;rsquo;t. I don&amp;rsquo;t know how to fix that yet, but I&amp;rsquo;m sure there&amp;rsquo;s some sort of color pallete I can reference so that things are still a nice and easy color to use.&lt;/p&gt;&#xA;&lt;p&gt;Those are all my thoughts so far. I&amp;rsquo;ll edit this as my opinions evolve, but I think I need to take a break so that I can look at the site with fresh eyes when I return to it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fission Product Yields: A Primer on My PhD Thesis</title>
-      <link>http://localhost:1313/post/primer-thesis/</link>
+      <link>https://abrac012.github.io/post/primer-thesis/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/primer-thesis/</guid>
-      <description>&lt;p&gt;Example of post with missing date property but with pic.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;img&#34; src=&#34;http://localhost:1313/images/favicon.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Within a nuclear reactor&amp;rsquo;s core, a series of highly energetic interactions are happening over and over in quick succession. Neutrons fly, strike nuclei, and ignite an exothermic process that can deliver massive quantities of power at scale. This process, nuclear fission, is considered to be self-sustaining through a chain reaction, like dominoes falling. Essentially, when a nucleus fissions, it doesn&amp;rsquo;t split cleanly in half, making two different isotopes, or &amp;ldquo;fission products.&amp;rdquo; These new isotopes, both the heavier and the lighter one, are generally pretty unstable. For many of these, the most likely path to stability lays in beta decay, wherein they can convert a neutron into a proton by emitting an electron and a tiny, mysterious particle called a neutrino (more on them later). Through beta decay, the previous (parent) isotope becomes a new, ideally more stable (daughter) isotope. Generally, though, it takes a few tries, about three for each original fission product. So you have this chain of new isotopes: parent -&amp;gt; daughter -&amp;gt; granddaughter -&amp;gt; great-granddaughter, where each &amp;ldquo;-&amp;gt;&amp;rdquo; represents a beta decay. All of these are considered fission products, though. After all, none of them would be there if not for the initial fission. Some of these fission products, are also key to the larger nuclear reaction&amp;rsquo;s functioning. Remember earlier that I mentioned neutrons flying around? Some of these neutrons are released as a part of fission themselves, called prompt neutrons. But some of them, arguably the most important, come from the beta decay chain. Every now and then, you get a fission product that can release a neutron &lt;em&gt;before&lt;/em&gt; it beta decays. These &amp;ldquo;delayed&amp;rdquo; neutrons are the life blood of the nuclear chain reaction. They come in just in time to propagate the reaction just as the prompt neutrons die down. Think of this as a gentle nudge when a domino doesn&amp;rsquo;t immediately topple over in the chain.&lt;/p&gt;</description>
+      <guid>https://abrac012.github.io/post/primer-thesis/</guid>
+      <description>&lt;p&gt;Example of post with missing date property but with pic.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;img&#34; src=&#34;https://abrac012.github.io/images/favicon.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Within a nuclear reactor&amp;rsquo;s core, a series of highly energetic interactions are happening over and over in quick succession. Neutrons fly, strike nuclei, and ignite an exothermic process that can deliver massive quantities of power at scale. This process, nuclear fission, is considered to be self-sustaining through a chain reaction, like dominoes falling. Essentially, when a nucleus fissions, it doesn&amp;rsquo;t split cleanly in half, making two different isotopes, or &amp;ldquo;fission products.&amp;rdquo; These new isotopes, both the heavier and the lighter one, are generally pretty unstable. For many of these, the most likely path to stability lays in beta decay, wherein they can convert a neutron into a proton by emitting an electron and a tiny, mysterious particle called a neutrino (more on them later). Through beta decay, the previous (parent) isotope becomes a new, ideally more stable (daughter) isotope. Generally, though, it takes a few tries, about three for each original fission product. So you have this chain of new isotopes: parent -&amp;gt; daughter -&amp;gt; granddaughter -&amp;gt; great-granddaughter, where each &amp;ldquo;-&amp;gt;&amp;rdquo; represents a beta decay. All of these are considered fission products, though. After all, none of them would be there if not for the initial fission. Some of these fission products, are also key to the larger nuclear reaction&amp;rsquo;s functioning. Remember earlier that I mentioned neutrons flying around? Some of these neutrons are released as a part of fission themselves, called prompt neutrons. But some of them, arguably the most important, come from the beta decay chain. Every now and then, you get a fission product that can release a neutron &lt;em&gt;before&lt;/em&gt; it beta decays. These &amp;ldquo;delayed&amp;rdquo; neutrons are the life blood of the nuclear chain reaction. They come in just in time to propagate the reaction just as the prompt neutrons die down. Think of this as a gentle nudge when a domino doesn&amp;rsquo;t immediately topple over in the chain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://abrac012.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://abrac012.github.io/about/</guid>
       <description>&lt;p&gt;My PhD research focuses on determining the production probabilities of various isotopes resulting from nuclear fission. Better understanding of these production probabilities (formally referred to as Fission Product Yields, or FPYs) has direct implications for nuclear nonproliferation efforts and reactor monitoring &amp;ndash; an increasingly important subject in the wake of rising demand for emissions-free energy.&lt;/p&gt;&#xA;&lt;p&gt;Aside from my graduate school work, I recently interned with and now continue to volunteer for the North Carolina League of Conservation Voters (NCLCV) on the development of North Carolina&amp;rsquo;s renewable energy projects, primarily focusing on energy storage. At NCLCV I authored a critical assessment of Duke Energy&amp;rsquo;s 2024 Integrated Resource Plan where I evaluated their proposals for energy storage development and emphasized the need for and feasibility of larger and more ambitious projects than what is currently proposed. The report will be submitted as a statement of public comment to the North Carolina Public Utilities Commission for the upcoming Integrated Resource Plan cycle.&lt;/p&gt;</description>
     </item>
   </channel>
